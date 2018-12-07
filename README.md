@@ -29,25 +29,25 @@
 
 
 ## 必要なライブラリと入手方法
-- libb64 (Base64デコード用)
-  - Ubuntu 18.04の場合
+### __libb64 (Base64デコード用)__
+- Ubuntu 18.04の場合
 ~~~
 $ sudo apt-get install libb64-dev
 ~~~
-  - Fedora 29の場合
+- Fedora 29の場合
 ~~~
 $ sudo dnf install libb64-devel
 ~~~
-- OpenSSH (ハッシュ計算用)
-  - Ubuntu 18.04の場合
+### __OpenSSH (ハッシュ計算用)__
+- Ubuntu 18.04の場合
 ~~~
 $ sudo apt-get install openssl
 ~~~
-  - Fedora 29の場合
+- Fedora 29の場合
 ~~~
 $ sudo dnf install openssl
 ~~~
-- mt19937ar (乱数生成用)
+### __mt19937ar (乱数生成用)__
 ~~~
 $ wget http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/CODES/mt19937ar.sep.tgz
 $ tar -xzvf mt19937ar.sep.tgz
